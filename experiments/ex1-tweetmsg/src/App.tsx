@@ -23,12 +23,15 @@ function App() {
           Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for best'?<a href="#">#programming</a><a href="#">#coding</a><a href="#">#debugging</a>
         </p>
         <div className="bottom-msg">
-          <div className="like-msg">
-            <button className="heart-button" onClick={() => setCount(count + 1)}>
-              <img src="/heart.png" alt="like" />
-            </button>
-            <p className="the-like">{count}</p>
+          <div className="like">
+            <div className="like-msg">
+              <button className="heart-button" onClick={() => setCount(count + 1)}>
+                <img src="/heart.png" alt="like" />
+              </button>
+              <p className="the-like">{count}</p>
+            </div>
           </div>
+          <p className="date-text"></p>
         </div>
       </div>
     </>
