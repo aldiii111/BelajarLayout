@@ -1,0 +1,70 @@
+#root {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 200px;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 35;
+    padding: 31px;
+    gap: 15;
+    width: 701px;
+    height: 328px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.header-msg {
+    display: flex;
+    flex-direction: row;
+    width: 701px;
+    height: 60px;
+    gap: 80%;
+}
+
+.profil {
+    display: flex;
+    width: 267px;
+    height: 60px;
+    gap: 22px;
+    align-items: start;
+}
+
+.profil-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.name {
+    width: 105px;
+    height: 54px;
+    gap: 1;
+}
+
+.logos-twitt {
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+}
+
+.twitter-img {
+    width: 37px;
+    height: 32px;
+}
