@@ -1,70 +1,111 @@
-#root {
+*, *::before, *::after {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
 .container {
-    background-color: blueviolet;
-    padding: 200px;
+    display: flex;
+    min-height: 100vh;
+    background-color: #ecf8ff;
+    justify-content: center;
+    align-items: center;
 }
 
+/* pembatas */
+
 .container-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     background-color: white;
-    padding-top: 35;
+    display: flex;
+    flex-direction: column;
+    width: 601px;
+    height: 228px;
     padding: 31px;
-    gap: 15;
-    width: 701px;
-    height: 328px;
+    padding-top: 35px;
+    gap: 15px;
+    align-items: left;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+
 }
+
+/* pembatas */
 
 .header-msg {
     display: flex;
     flex-direction: row;
-    width: 701px;
-    height: 60px;
-    gap: 80%;
+    width: 539px;
+    height: 50px;
+    justify-content: space-between;
 }
 
 .profil {
     display: flex;
-    width: 267px;
-    height: 60px;
+    flex-direction: row;
+    width: 167px;
+    height: 50px;
     gap: 22px;
-    align-items: start;
 }
-
 .profil-img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
-
 .name {
-    width: 105px;
-    height: 54px;
-    gap: 1;
+    display: flex;
+    flex-direction: column;
+}
+.p-name1 {
+
+}
+.p-name2 {
+
 }
 
 .logos-twitt {
-    width: 40px;
-    height: 40px;
-    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.twitter-img {
+    width: 27px;
+    height: 27px;
+}
+/* pembatas */
+
+.text-msg {
+
 }
 
-.twitter-img {
-    width: 37px;
-    height: 32px;
+/* pembatas */
+
+.bottom-msg {
+
 }
+
+.like {
+
+}
+.like-msg {
+
+}
+.heart-button {
+
+}
+.like-img {
+    width: 21px;
+    height: 18px;
+}
+.the-like {
+    
+}
+.date-text {
+
+}
+/* pembatas */

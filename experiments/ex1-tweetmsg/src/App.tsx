@@ -10,14 +10,16 @@ function App() {
         <div className="container-main">
           <div className="header-msg">
             <div className="profile">
-              <img src="/me.jpg" alt="profil" className="profil-img"/>
+              <div>
+                <img src="/me.jpg" alt="profil" className="profil-img" />
+              </div>
               <div className="name">
                 <p className="p-name1">Aldi Kurniawan</p>
                 <p className="p-name2">aldiii.mutu@gmail.com</p>
               </div>
             </div>
             <div className="logos-twitt">
-              <img src="/twitter.png" alt="twiter logo" className="twitter-img"/>
+              <img src="/twitter.png" alt="twiter logo" className="twitter-img" />
             </div>
           </div>
           <p className="text-msg">
@@ -27,7 +29,7 @@ function App() {
             <div className="like">
               <div className="like-msg">
                 <button className="heart-button" onClick={() => setCount(count + 1)}>
-                  <img src="/heart.png" alt="like" />
+                  <img src="/heart.png" alt="like" className="like-img" />
                 </button>
                 <p className="the-like">{count}</p>
               </div>
