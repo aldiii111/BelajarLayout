@@ -5,6 +5,7 @@
 }
 
 .container {
+    font-family: 'source sans pro', sans-serif;
     display: flex;
     min-height: 100vh;
     background-color: #ecf8ff;
@@ -29,7 +30,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-
+    box-shadow: 0 15px 60px 0 #1da1f2 rgb(0, 0, 0, 15);
 }
 
 /* pembatas */
@@ -42,14 +43,16 @@
     justify-content: space-between;
 }
 
-.profil {
+.profile {
     display: flex;
     flex-direction: row;
     width: 167px;
     height: 50px;
     gap: 22px;
+    align-items: center;
 }
 .profil-img {
+    display: flex;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -57,16 +60,21 @@
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+    object-fit: cover;
 }
 .name {
     display: flex;
     flex-direction: column;
 }
 .p-name1 {
-
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
 }
 .p-name2 {
-
+    color: #000000;
+    opacity: 60%;
+    font-size: 16px;
 }
 
 .logos-twitt {
@@ -80,32 +88,52 @@
 /* pembatas */
 
 .text-msg {
+    font-size: 16px;
+    color: #000000;
 
+}
+a {
+    color: #1da1f2;
+    text-decoration: none;
 }
 
 /* pembatas */
 
 .bottom-msg {
-
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .like {
-
+    display: flex;
 }
 .like-msg {
-
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 .heart-button {
-
+    background-color: transparent;
+    border: none;
 }
 .like-img {
     width: 21px;
-    height: 18px;
+    height: 21px;
+    color: #000000;
+    opacity: 60%;
+    font-weight: 600;
 }
 .the-like {
-    
+    font-size: 16px;
+    color: #000000;
+    opacity: 60%;
+    font-weight: 600;
 }
 .date-text {
-
+    font-size: 16px;
+    color: #000000;
+    opacity: 60%;
+    font-weight: 600;
 }
 /* pembatas */

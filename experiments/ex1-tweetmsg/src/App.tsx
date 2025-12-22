@@ -23,7 +23,7 @@ function App() {
             </div>
           </div>
           <p className="text-msg">
-            Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for best'?<a href="#">#programming</a><a href="#">#coding</a><a href="#">#debugging</a>
+            Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for best' ?<a href="#">#programming</a><a href="#">#coding</a><a href="#">#debugging</a>
           </p>
           <div className="bottom-msg">
             <div className="like">
