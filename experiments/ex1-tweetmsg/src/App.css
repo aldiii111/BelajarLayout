@@ -11,6 +11,7 @@
     background-color: #ecf8ff;
     justify-content: center;
     align-items: center;
+
 }
 
 /* pembatas */
@@ -19,11 +20,12 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 601px;
-    height: 228px;
-    padding: 31px;
-    padding-top: 35px;
+    width: 291px; /* */
+    height: 268px; /* */
+    padding: 31px; /* */
+    padding-top: 35px; /* */
     gap: 15px;
+    overflow: hidden;
     align-items: left;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -38,7 +40,7 @@
 .header-msg {
     display: flex;
     flex-direction: row;
-    width: 539px;
+    width: 235px;
     height: 50px;
     justify-content: space-between;
 }
@@ -75,6 +77,7 @@
     color: #000000;
     opacity: 60%;
     font-size: 16px;
+    word-wrap: break-word;
 }
 
 .logos-twitt {
@@ -90,7 +93,7 @@
 .text-msg {
     font-size: 16px;
     color: #000000;
-
+    word-wrap: break-word;
 }
 a {
     color: #1da1f2;
@@ -137,3 +140,57 @@ a {
     font-weight: 600;
 }
 /* pembatas */
+
+/* responsif */
+
+@media (min-width: 400px) {
+    .container-main {
+        width: 351px;
+        height: 248px;
+    }
+
+    .header-msg {
+        justify-content: space-between;
+        width: 289px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 500px) {
+    .container-main {
+        width: 401px;
+        height: 228px;
+    }
+
+    .header-msg {
+        justify-content: space-between;
+        width: 339px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-main {
+        width: 501px;
+        height: 228px;
+    }
+
+    .header-msg {
+        justify-content: space-between;
+        width: 439px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 700px) {
+    .container-main {
+        width: 601px;
+        height: 228px;
+    }
+
+    .header-msg {
+        justify-content: space-between;
+        width: 539px;
+        height: 50px;
+    }
+}
