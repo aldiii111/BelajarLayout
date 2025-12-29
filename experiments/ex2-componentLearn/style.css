@@ -5,23 +5,41 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: #ffffff;
+    height: 100vh;
 }
 
 .navbar {
-
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 67px;
+    padding-bottom: 1rem;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    z-index: 4;
+    align-items: end;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .hola-logo {
-
+    display: flex;
+    align-items: left;
+    gap: 15px;
+    width: 100%;
+    max-width: 199px;
+    height: 24px;
 }
 
 .stethoscope {
-
+    width: 24px;
+    height: 24px;
 }
 
 .img-stethos {
-
+    width: 24px;
+    height: 24px;
 }
 
 .hola-text {
@@ -29,27 +47,34 @@ body {
 }
 
 .navigation1 {
+    width: 100%;
+    max-width: 446px;
+}
 
+ul, a {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .ul-nav {
-
+    gap: 50px;
 }
 
 .home {
-
+    color: #000000;
 }
 
 .features {
-
+    color: rgb(0, 0, 0, 80%);
 }
 
 .blog {
-
+    color: rgb(0, 0, 0, 80%);
 }
 
 .about {
-
+    color: rgb(0, 0, 0, 80%);
 }
 
 .navigation2 {
@@ -61,19 +86,16 @@ body {
 }
 
 .login {
-
-}
-
-.ul-book {
-
+    color: #000000;
 }
 
 .book-now {
-
+    color: #000000;
 }
 
 .main-content {
-
+    z-index: 1;
+    position: relative;
 }
 
 .hero-text {
