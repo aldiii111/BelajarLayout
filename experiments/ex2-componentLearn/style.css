@@ -14,13 +14,14 @@ body {
     flex-direction: row;
     background-color: #ffffff;
     height: 67px;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
     width: 100%;
     position: fixed;
     justify-content: center;
     z-index: 4;
-    align-items: end;
+    align-items: center;
     font-family: 'Source Sans 3', sans-serif;
+    padding-inline: 2rem;
 }
 
 .hola-logo {
@@ -43,7 +44,8 @@ body {
 }
 
 .hola-text {
-
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .navigation1 {
@@ -63,34 +65,55 @@ ul, a {
 
 .home {
     color: #000000;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .features {
     color: rgb(0, 0, 0, 80%);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .blog {
     color: rgb(0, 0, 0, 80%);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .about {
     color: rgb(0, 0, 0, 80%);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .navigation2 {
-
+    width: 100%;
+    max-width: 295px;
+    height: 37px;
 }
 
 .ul-login {
-
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    height: 37px;
 }
 
 .login {
     color: #000000;
+    padding: 4px;
 }
 
 .book-now {
     color: #000000;
+    border: 1.5px solid black;
+    width: 117px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .main-content {
@@ -246,3 +269,15 @@ ul, a {
 
 }
 
+@media (max-width: 850px) {
+    .hola-logo {
+        justify-content: center;
+    }
+
+    .navigation1,
+    .ul-nav,
+    .navigation2,
+    .ul-login ul li a{
+        display: none;
+    }
+}
