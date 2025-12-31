@@ -15,13 +15,14 @@ body {
     background-color: #ffffff;
     height: 67px;
     padding-top: 1rem;
+    gap: 6;
     width: 100%;
     position: fixed;
     justify-content: center;
     z-index: 4;
     align-items: center;
     font-family: 'Source Sans 3', sans-serif;
-    padding-inline: 2rem;
+    padding-inline: 3rem;
 }
 
 .hola-logo {
@@ -44,13 +45,15 @@ body {
 }
 
 .hola-text {
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
+
 }
 
 .navigation1 {
     width: 100%;
-    max-width: 446px;
+    max-width: 646px;
 }
 
 ul, a {
@@ -85,12 +88,14 @@ ul, a {
     color: rgb(0, 0, 0, 80%);
     font-size: 16px;
     font-weight: 500;
+    height: 22px;
 }
 
 .navigation2 {
     width: 100%;
     max-width: 295px;
     height: 37px;
+    
 }
 
 .ul-login {
@@ -103,6 +108,8 @@ ul, a {
 .login {
     color: #000000;
     padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .book-now {
@@ -117,8 +124,19 @@ ul, a {
 }
 
 .main-content {
-    z-index: 1;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6rem;
+    padding-left: 10rem;
+}
+
+/* bagian atas yg gambar dan teks */
+
+.bagian-gambar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: red;
 }
 
 .hero-text {
@@ -150,12 +168,15 @@ ul, a {
 }
 
 .img-green {
+    z-index: 1;
 
 }
 
 .img-doctor {
-
+    z-index: 2;
 }
+
+/* bagian melayang chat testimoni */
 
 .testimoni {
 
@@ -192,6 +213,12 @@ ul, a {
 .testi-text {
 
 }
+
+.bagian-bawah {
+
+}
+
+/* bagian informasi bawah */
 
 .informasi {
 
@@ -269,7 +296,7 @@ ul, a {
 
 }
 
-@media (max-width: 850px) {
+@media (max-width: 931px) {
     .hola-logo {
         justify-content: center;
     }
