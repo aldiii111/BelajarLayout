@@ -17,7 +17,6 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    background-color: #ffffff;
     height: 75px;
     gap: 50px;
     width: 100%;
@@ -115,6 +114,8 @@ ul, a {
     padding: 4px;
     font-size: 14px;
     font-weight: bold;
+    height: 37px;
+    align-items: center;
 }
 
 .book-now {
@@ -131,7 +132,7 @@ ul, a {
 .main-content {
     display: flex;
     flex-direction: column;
-    top: 30px;
+
 }
 
 /* bagian atas yg gambar dan teks */
@@ -168,16 +169,19 @@ ul, a {
 }
 
 .image {
-
+    position: relative;
 }
 
 .img-green {
     z-index: 1;
-
+    padding-top: 15px;
+    position: relative;
 }
 
 .img-doctor {
     z-index: 2;
+    padding-top: 15px;
+    position: relative;
 }
 
 /* bagian melayang chat testimoni */
