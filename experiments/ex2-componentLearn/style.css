@@ -9,13 +9,17 @@ body {
     height: 100vh;
 }
 
+.component {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
-    height: 67px;
-    padding-top: 1rem;
-    gap: 6;
+    height: 75px;
+    gap: 50px;
     width: 100%;
     position: fixed;
     justify-content: center;
@@ -23,6 +27,7 @@ body {
     align-items: center;
     font-family: 'Source Sans 3', sans-serif;
     padding-inline: 3rem;
+    top: 0px;
 }
 
 .hola-logo {
@@ -126,8 +131,7 @@ ul, a {
 .main-content {
     display: flex;
     flex-direction: column;
-    padding-right: 6rem;
-    padding-left: 10rem;
+    top: 30px;
 }
 
 /* bagian atas yg gambar dan teks */
@@ -296,7 +300,7 @@ ul, a {
 
 }
 
-@media (max-width: 931px) {
+@media (max-width: 770px) {
     .hola-logo {
         justify-content: center;
     }
