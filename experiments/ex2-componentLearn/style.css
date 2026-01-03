@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 75px;
+    padding-top: 2rem;
     gap: 50px;
     width: 100%;
     position: fixed;
@@ -25,7 +26,7 @@ body {
     z-index: 4;
     align-items: center;
     font-family: 'Source Sans 3', sans-serif;
-    padding-inline: 3rem;
+    padding-inline: 4rem;
     top: 0px;
 }
 
@@ -132,7 +133,6 @@ ul, a {
 .main-content {
     display: flex;
     flex-direction: column;
-
 }
 
 /* bagian atas yg gambar dan teks */
@@ -142,6 +142,7 @@ ul, a {
     flex-direction: row;
     justify-content: center;
     background-color: red;
+    
 }
 
 .hero-text {
@@ -170,18 +171,21 @@ ul, a {
 
 .image {
     position: relative;
+    padding-right: 7.5rem;
 }
 
 .img-green {
     z-index: 1;
     padding-top: 15px;
-    position: relative;
+    position: absolute;
+    right: 7.5rem;
 }
 
 .img-doctor {
     z-index: 2;
-    padding-top: 15px;
-    position: relative;
+    padding-top: 67px;
+    position: absolute;
+    right: 8rem;
 }
 
 /* bagian melayang chat testimoni */
