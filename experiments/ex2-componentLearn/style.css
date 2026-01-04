@@ -77,18 +77,8 @@ ul, a {
     font-weight: 600;
 }
 
-.features {
-    color: rgb(0, 0, 0, 80%);
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.blog {
-    color: rgb(0, 0, 0, 80%);
-    font-size: 16px;
-    font-weight: 500;
-}
-
+.features,
+.blog,
 .about {
     color: rgb(0, 0, 0, 80%);
     font-size: 16px;
@@ -250,81 +240,28 @@ ul, a {
     flex-direction: row;
 }
 
-.kalender {
+.featur {
 
 }
 
-.img-featur1 {
-    height: 40px;
+.img-featur {
+
+}
+
+.img-feat {
     width: 40px;
-}
-
-.img-kalender {
-    height: 35px;
-    width: 35px;
+    height: 40px;
 }
 
 .featur-text {
 
 }
 
-.featur-text1 {
-
-}
-
-.featur-text2 {
-
-}
-
-.lonceng {
-
-}
-
-.img-featur2 {
-    height: 40px;
-    width: 40px;
-}
-
-.img-bell {
-    height: 35px;
-    width: 35px;
-}
-
-.featur-textt {
-
-}
-
-.featur-text3 {
-
-}
-
-.featur-text4 {
-
-}
-
-.webcam {
-
-}
-
-.img-featur3 {
-    height: 40px;
-    width: 40px;
-}
-
-.img-webcam {
-    height: 35px;
-    width: 35px;
-}
-
 .featur-texttt {
 
 }
 
-.featur-text5 {
-
-}
-
-.featur-text6 {
+.featur-textt {
 
 }
 
