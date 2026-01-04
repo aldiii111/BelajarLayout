@@ -132,10 +132,11 @@ ul, a {
     flex-direction: row;
     justify-content: center;
     background-color: red;
+    width: 100%;
 }
 
 .hero-text {
-
+    width: 50%;
 }
 
 .informasi-text {
@@ -143,11 +144,11 @@ ul, a {
 }
 
 .tawaran-text {
-
+    font-family: 'DM Sans', sans-serif;
 }
 
 .deskripsi-text {
-
+    font-family: 'DM Sans', sans-serif;
 }
 
 .hero-button {
@@ -155,12 +156,12 @@ ul, a {
 }
 
 .the-button {
-
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .image {
     position: relative;
-    padding-right: 7.5rem;
+    width: 50%;
 }
 
 .img-green {
@@ -186,7 +187,7 @@ ul, a {
     gap: 12px;
     border-radius: 10px;
     position: absolute;
-    z-index: 3;
+    z-index: ;
     right: 4rem;
 }
 
@@ -249,8 +250,8 @@ ul, a {
 }
 
 .img-feat {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .featur-text {
