@@ -142,7 +142,6 @@ ul, a {
     flex-direction: row;
     justify-content: center;
     background-color: red;
-    
 }
 
 .hero-text {
@@ -191,7 +190,14 @@ ul, a {
 /* bagian melayang chat testimoni */
 
 .testimoni {
-
+    width: 292px;
+    height: 182px;
+    background-color: #ffffff;
+    gap: 12px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    right: 4rem;
 }
 
 .header-testi {
@@ -203,7 +209,13 @@ ul, a {
 }
 
 .img-profil {
-
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 .name-text {
@@ -227,13 +239,15 @@ ul, a {
 }
 
 .bagian-bawah {
-
+    background-color: #4f7272;
+    
 }
 
 /* bagian informasi bawah */
 
 .informasi {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .kalender {
@@ -241,11 +255,13 @@ ul, a {
 }
 
 .img-featur1 {
-
+    height: 40px;
+    width: 40px;
 }
 
 .img-kalender {
-
+    height: 35px;
+    width: 35px;
 }
 
 .featur-text {
@@ -265,11 +281,13 @@ ul, a {
 }
 
 .img-featur2 {
-
+    height: 40px;
+    width: 40px;
 }
 
 .img-bell {
-
+    height: 35px;
+    width: 35px;
 }
 
 .featur-textt {
@@ -289,11 +307,13 @@ ul, a {
 }
 
 .img-featur3 {
-
+    height: 40px;
+    width: 40px;
 }
 
 .img-webcam {
-
+    height: 35px;
+    width: 35px;
 }
 
 .featur-texttt {
