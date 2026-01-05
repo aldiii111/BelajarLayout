@@ -168,14 +168,15 @@ ul, a {
     z-index: 1;
     padding-top: 15px;
     position: absolute;
-    right: 7.5rem;
+    right: 17.5rem;
+
 }
 
 .img-doctor {
     z-index: 2;
     padding-top: 67px;
     position: absolute;
-    right: 8rem;
+    right: 18rem;
 }
 
 /* bagian melayang chat testimoni */
@@ -230,8 +231,9 @@ ul, a {
 }
 
 .bagian-bawah {
+    display: flex;
     background-color: #4f7272;
-    
+    justify-content: center;
 }
 
 /* bagian informasi bawah */
@@ -239,6 +241,9 @@ ul, a {
 .informasi {
     display: flex;
     flex-direction: row;
+    width: 75%;
+    background-color: bisque;
+
 }
 
 .featur {
@@ -264,6 +269,16 @@ ul, a {
 
 .featur-textt {
 
+}
+
+@media (max-width: 1400px) {
+    .img-green {
+        right: 1.3rem;
+    }
+
+    .img-doctor {
+        right: 1.8rem;
+    }
 }
 
 @media (max-width: 770px) {
