@@ -6,12 +6,13 @@
 
 body {
     background-color: #ffffff;
-    height: 100vh;
+
 }
 
 .component {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+
 }
 
 .navbar {
@@ -123,6 +124,7 @@ ul, a {
 .main-content {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 /* bagian atas yg gambar dan teks */
@@ -168,7 +170,7 @@ ul, a {
     z-index: 1;
     padding-top: 15px;
     position: absolute;
-    right: 17.5rem;
+    /* right: 17.5rem; */
 
 }
 
@@ -176,7 +178,7 @@ ul, a {
     z-index: 2;
     padding-top: 67px;
     position: absolute;
-    right: 18rem;
+    /* right: 18rem; */
 }
 
 /* bagian melayang chat testimoni */
@@ -271,7 +273,7 @@ ul, a {
 
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
     .img-green {
         right: 1.3rem;
     }
@@ -279,7 +281,7 @@ ul, a {
     .img-doctor {
         right: 1.8rem;
     }
-}
+} */
 
 @media (max-width: 770px) {
     .hola-logo {
