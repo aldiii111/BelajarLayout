@@ -12,7 +12,7 @@ body {
 .component {
     display: flex;
     flex-direction: column;    
-
+    height: 100vh;
 }
 
 .navbar {
@@ -123,14 +123,7 @@ ul, a {
 
 .main-content {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-/* bagian atas yg gambar dan teks */
-
-.bagian-gambar {
-    display: flex;
+    height: 100%;
     flex-direction: row;
     justify-content: center;
     background-color: red;
