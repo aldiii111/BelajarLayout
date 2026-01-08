@@ -131,27 +131,48 @@ ul, a {
 }
 
 .hero-text {
-    width: 50%;
+    height: 391px;
+    width: 457px;
+    gap: 40px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
 }
 
 .informasi-text {
-
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .tawaran-text {
     font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    height: 186px;
 }
 
 .deskripsi-text {
     font-family: 'DM Sans', sans-serif;
+    height: 90px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .hero-button {
-
+    display: flex;
+    height: 60px;
 }
 
 .the-button {
     font-family: 'Source Sans 3', sans-serif;
+    max-width: 235px;
+    width: 100%;
+    background-color: #203271;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .image {
@@ -183,8 +204,8 @@ ul, a {
     gap: 12px;
     border-radius: 10px;
     position: absolute;
-    z-index: ;
-    right: 4rem;
+    z-index: 3;
+    right: 1rem;
 }
 
 .header-testi {
