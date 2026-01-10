@@ -184,7 +184,7 @@ ul, a {
     z-index: 1;
     padding-top: 15px;
     position: absolute;
-    /* right: 17.5rem; */
+    right: 0rem;
 
 }
 
@@ -192,7 +192,7 @@ ul, a {
     z-index: 2;
     padding-top: 67px;
     position: absolute;
-    /* right: 18rem; */
+    right: 0rem;
 }
 
 /* bagian melayang chat testimoni */
@@ -205,7 +205,6 @@ ul, a {
     border-radius: 10px;
     position: absolute;
     z-index: 3;
-    right: 1rem;
 }
 
 .header-testi {
@@ -248,7 +247,6 @@ ul, a {
 
 .bagian-bawah {
     display: flex;
-    background-color: #4f7272;
     justify-content: center;
 }
 
@@ -286,16 +284,6 @@ ul, a {
 .featur-textt {
 
 }
-
-/* @media (max-width: 1400px) {
-    .img-green {
-        right: 1.3rem;
-    }
-
-    .img-doctor {
-        right: 1.8rem;
-    }
-} */
 
 @media (max-width: 770px) {
     .hola-logo {
