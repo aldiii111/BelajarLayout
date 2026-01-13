@@ -19,8 +19,8 @@ body {
 .component {
     display: flex;
     flex-direction: column;
-    max-width: 1220px;
-
+    max-width: 1316px;
+    padding-inline: 3rem;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ body {
     z-index: 4;
     align-items: center;
     font-family: 'Source Sans 3', sans-serif;
-    padding-right: 3rem;
+    /* padding-right: 3rem; */
     top: 0px;
     max-width: 1220px;
     width: 100%;
@@ -136,6 +136,8 @@ ul, a {
     display: flex;
     flex-direction: row;
     margin-top: 75px;
+    max-height: 787px;
+    height: 100%;
 }
 
 .hero-text {
@@ -172,7 +174,7 @@ ul, a {
     height: 60px;
 }
 
-.the-button {
+.the-button, .aaa {
     font-family: 'Source Sans 3', sans-serif;
     max-width: 235px;
     width: 100%;
@@ -190,7 +192,7 @@ ul, a {
 
 .img-green {
     z-index: 1;
-    padding-top: 15px;
+    top: -60px;
     position: absolute;
     right: 0rem;
 
@@ -198,7 +200,7 @@ ul, a {
 
 .img-doctor {
     z-index: 2;
-    padding-top: 67px;
+    top: -7px;
     position: absolute;
     right: 0rem;
 }
