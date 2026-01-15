@@ -34,9 +34,9 @@ body {
     z-index: 4;
     align-items: center;
     font-family: 'Source Sans 3', sans-serif;
-    /* padding-right: 3rem; */
+    padding-inline: 3rem;
     top: 0px;
-    max-width: 1220px;
+    max-width: 1316px;
     width: 100%;
 }
 
@@ -189,6 +189,7 @@ ul, a {
 .image {
     position: relative;
     width: 100%;
+    height: auto;
 }
 
 .img-green {
@@ -209,6 +210,8 @@ ul, a {
 /* bagian melayang chat testimoni */
 
 .testimoni {
+    display: flex;
+    flex-direction: column;
     width: 292px;
     height: 182px;
     background-color: #ffffff;
@@ -216,14 +219,21 @@ ul, a {
     border-radius: 10px;
     position: absolute;
     z-index: 3;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 10%)
 }
 
 .header-testi {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .profil {
-
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
 .img-profil {
@@ -237,23 +247,14 @@ ul, a {
 }
 
 .name-text {
-
-}
-
-.string {
-
-}
-
-.img-string1 {
-
-}
-
-.img-string2 {
-
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .testi-text {
-
+    font-size: 12px;
+    font-family: 'Source Sans 3';
 }
 
 .bagian-bawah {
@@ -293,6 +294,13 @@ ul, a {
 }
 
 .featur-textt {
+
+}
+
+@media (max-width: 1200px) {
+    .testimoni {
+        display: none;
+    }
 
 }
 
