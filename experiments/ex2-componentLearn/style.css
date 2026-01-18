@@ -134,14 +134,21 @@ ul, a {
     font-weight: bold;
 }
 
-/* saya akan membuat 2 column yg pertama berisi image dan text dan column 2 berisi featurs */
 .main-content { 
     display: flex;
+    flex-direction: column;
+    height: 100% ;
+}
+
+.column1 {
+    display: flex;
     flex-direction: row;
-    height: 850px;
+    margin-bottom: 17rem;
 }
 
 .hero-text {
+    margin-top: 10%;
+
     height: 391px;
     max-width: 457px;
     gap: 40px;
@@ -190,7 +197,6 @@ ul, a {
 .image {
     position: relative;
     width: 100%;
-    height: auto;
 }
 
 .img-green {
@@ -219,6 +225,8 @@ ul, a {
     gap: 12px;
     border-radius: 10px;
     position: absolute;
+    top: 30%;
+    right: 55%;
     z-index: 3;
     padding: 20px;
     box-shadow: 0 15px 30px rgb(0, 0, 0, 10%)
@@ -258,19 +266,11 @@ ul, a {
     font-family: 'Source Sans 3';
 }
 
-.bagian-bawah {
-    display: flex;
-    justify-content: center;
-    height: 191px;
-}
-
-/* bagian informasi bawah */
-
-.informasi {
+.column2 {
     display: flex;
     flex-direction: row;
     background-color: bisque;
-
+    height: 191px;
 }
 
 .featur {
