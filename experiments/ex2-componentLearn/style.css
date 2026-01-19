@@ -144,6 +144,7 @@ ul, a {
     display: flex;
     flex-direction: row;
     margin-bottom: 17.1rem;
+    /* margin-bottom: 22.4%; */
 }
 
 .hero-text {
@@ -276,11 +277,9 @@ ul, a {
 }
 
 .featur {
-
-}
-
-.img-featur {
-
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .img-feat {
@@ -289,7 +288,9 @@ ul, a {
 }
 
 .featur-text {
-
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .featur-texttt {
