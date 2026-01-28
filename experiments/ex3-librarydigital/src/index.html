@@ -12,26 +12,26 @@
     <title>Library Digital</title>
 </head>
 
-<body class="flex flex-col min-h-screen w-full items-center bg-sky-300 ">
-    <nav class="bg-amber-200 fixed w-full">
-        <div class="bg-amber-100 max-w-[1264px] mx-auto flex flex-row items-center h-11 px-8 mt-[70px] justify-between">
+<body class="flex flex-col min-h-screen w-full items-center bg-white">
+    <nav class="fixed w-full">
+        <div class="max-w-[1264px] mx-auto flex flex-row items-center h-11 px-8 mt-[70px] justify-between">
             <div class="flex flex-row gap-35 ">
-                <a href="#"><img src="assets/images/Logo - Text Black 1.png" class="w-20 h-7 " /></a>
-                <div class="flex flex-row items-center gap-10">
-                    <a href="#" class="">Feature</a>
-                    <a href="#" class="">Service</a>
-                    <a href="#" class="">Riview</a>
-                    <a href="#" class="">Location</a>
+                <a href="#home"><img src="assets/images/Logo - Text Black 1.png" class="w-20 h-7 " /></a>
+                <div class="flex flex-row items-center gap-10 ">
+                    <a href="#feature" class="font-normal text-sm text-[#9a9ea6]">Feature</a>
+                    <a href="#services" class="font-normal text-sm text-[#9a9ea6]">Service</a>
+                    <a href="#riviews" class="font-normal text-sm text-[#9a9ea6]">Riview</a>
+                    <a href="#location" class="font-normal text-sm text-[#9a9ea6]">Location</a>
                 </div>
             </div>
-            <button class="h-11 w-[137px] bg-white rounded-[10px] text-base font-bold">Login</button>
+            <button class="h-11 w-[137px] shadow-(--shadow) bg-white rounded-[10px] text-base font-bold">Login</button>
         </div>
     </nav>
 
-    <main class="h-auto bg-white max-w-[1264px] px-8 mx-auto">
+    <main class="bg-sky-300 h-auto max-w-[1264px] px-8 mx-auto mt-[114px]" id="main">
         <!-- bagian home -->
-        <div class="">
-            <div class="">
+        <section class="flex flex-row" id="home">
+            <div class="w-1/2">
                 <div class="">
                     <p class="">Search & review
                         your fav book effortlessly</p>
@@ -46,9 +46,9 @@
                     <button>Start now →</button>
                 </div>
             </div>
-            <div class="">
-                <div class="">
-                    <img src="assets/images/Cover.png" />
+            <div class="w-1/2">
+                <div class="relative">
+                    <img src="assets/images/Cover.png" class="absolute w-[720px] h-[713px] inset-20"/>
                 </div>
                 <div class="">
                     <div class="">
@@ -63,10 +63,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- bagian feature -->
-        <div class="">
+        <section class="" id="feature">
             <div class="">
                 <div class="">
                     <p class="">FEATURES</p>
@@ -110,10 +110,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- bagian services -->
-        <div class="">
+        <section class="" id="services">
             <div class="">
                 <div class="">
                     <p class="">SERVICES</p>
@@ -159,10 +159,10 @@
                     <img src="assets/images/Right.png" />
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- bagian riviews -->
-        <div class="">
+        <section class="" id="riviews">
             <div class="">
                 <div class="">
                     <p class="">REVIEWS</p>
@@ -203,10 +203,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- location -->
-        <div class="">
+        <section class="" id="location">
             <div class="">
                 <div class="">
                     <p class="">LOCATION</p>
@@ -218,7 +218,7 @@
             <div class="">
                 <button><img src="assets/images/Location.png" /></button>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- footer -->
