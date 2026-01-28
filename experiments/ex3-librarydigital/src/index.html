@@ -5,26 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <title>Library Digital</title>
 </head>
 
-<body class="flex min-h-screen w-full bg-sky-300 justify-center px-10">
-    <main class="h-auto bg-white max-w-[1200px] mx-auto">
-        <nav class="fixed h-20 flex flex-row max-w-[1200px] items-end pb-3 bg-amber-400 ">
+<body class="flex flex-col min-h-screen w-full items-center bg-sky-300 ">
+    <nav class="bg-amber-200 fixed w-full">
+        <div class="bg-amber-100 max-w-[1264px] mx-auto flex flex-row items-center h-11 px-8 mt-[70px] justify-between">
             <div class="flex flex-row gap-35 ">
                 <a href="#"><img src="assets/images/Logo - Text Black 1.png" class="w-20 h-7 " /></a>
-                <div class="flex flex-row gap-10">
+                <div class="flex flex-row items-center gap-10">
                     <a href="#" class="">Feature</a>
                     <a href="#" class="">Service</a>
                     <a href="#" class="">Riview</a>
                     <a href="#" class="">Location</a>
                 </div>
             </div>
-            <div class="flex ">
-                <button>Login</button>
-            </div>
-        </nav>
+            <button class="h-11 w-[137px] bg-white rounded-[10px] text-base font-bold">Login</button>
+        </div>
+    </nav>
 
+    <main class="h-auto bg-white max-w-[1264px] px-8 mx-auto">
         <!-- bagian home -->
         <div class="">
             <div class="">
@@ -215,32 +219,32 @@
                 <button><img src="assets/images/Location.png" /></button>
             </div>
         </div>
-
-        <!-- footer -->
-        <footer class="">
-            <div class="">
-                <div class="">
-                    <p class="">Managed By</p>
-                    <img src="assets/images/Logo - Text Black 1.png" />
-                </div>
-                <div class="">
-                    <p class="">Social Media</p>
-                    <div class="">
-                        <img src="assets/images/Twitter.png" />
-                        <img src="assets/images/Instagram.png" />
-                        <img src="assets/images/Facebook.png" />
-                    </div>
-                </div>
-                <div class="">
-                    <p class="">Slogan</p>
-                    <p class="">#RentFavBooks</p>
-                </div>
-            </div>
-            <div class="">
-                <p class="">© 2024 Lidia. All rights reserved.</p>
-            </div>
-        </footer>
     </main>
+
+    <!-- footer -->
+    <footer class="">
+        <div class="">
+            <div class="">
+                <p class="">Managed By</p>
+                <img src="assets/images/Logo - Text Black 1.png" />
+            </div>
+            <div class="">
+                <p class="">Social Media</p>
+                <div class="">
+                    <img src="assets/images/Twitter.png" />
+                    <img src="assets/images/Instagram.png" />
+                    <img src="assets/images/Facebook.png" />
+                </div>
+            </div>
+            <div class="">
+                <p class="">Slogan</p>
+                <p class="">#RentFavBooks</p>
+            </div>
+        </div>
+        <div class="">
+            <p class="">© 2024 Lidia. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 
