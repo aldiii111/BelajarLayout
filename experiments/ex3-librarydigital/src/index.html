@@ -1,48 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
     <title>Library Digital</title>
 </head>
 
 <body class="flex flex-col min-h-screen w-full items-center bg-white">
-    <nav class="fixed w-full z-10 ">
-        <div class="max-w-[1264px] mx-auto flex flex-row items-center h-11 px-8 mt-[70px] justify-between backdrop-blur-xl">
-            <div class="flex flex-row gap-35 ">
-                <a href="#home"><img src="assets/images/Logo - Text Black 1.png" class="w-20 h-7 " /></a>
-                <div class="flex flex-row items-center gap-10 ">
+    <nav class="fixed w-full z-10">
+        <div
+            class="max-w-[1264px] mx-auto flex flex-row items-center h-11 px-8 mt-[70px] justify-between backdrop-blur-xl">
+            <div class="flex flex-row gap-35">
+                <a href="#home"><img src="assets/images/Logo - Text Black 1.png" class="w-20 h-7" /></a>
+                <div class="flex flex-row items-center gap-10">
                     <a href="#feature" class="font-normal text-sm text-[#9a9ea6]">Feature</a>
                     <a href="#services" class="font-normal text-sm text-[#9a9ea6]">Service</a>
                     <a href="#riviews" class="font-normal text-sm text-[#9a9ea6]">Riview</a>
                     <a href="#location" class="font-normal text-sm text-[#9a9ea6]">Location</a>
                 </div>
             </div>
-            <button class="h-11 w-[137px] shadow-(--shadow) bg-white rounded-[10px] text-base font-bold">Login</button>
+            <button class="h-11 w-[137px] shadow-(--shadow) bg-white rounded-[10px] text-base font-bold">
+                Login
+            </button>
         </div>
     </nav>
 
-    <main class="g-sky-300 flex flex-col h-auto max-w-[1264px] px-8 mx-auto mt-[114px] gap-50 " id="main">
+    <main class="g-sky-300 flex flex-col h-auto max-w-[1264px] px-8 mx-auto mt-[114px] gap-50" id="main">
         <!-- bagian home -->
-        <section class="flex flex-row mt-11 " id="home">
-            <div class="w-1/2 flex flex-col gap-8 ">
-                <p class="font-extrabold text-[#181E4B] text-[76px] leading-22 tracking-[-0.04em] h-66 ">Search & review
-                    your <span class="text-(--color) border-b-4">fav book</span> effortlessly</p>
-                <p class="font-normal text-base leading-[30px] h-30 ">
-                    Embark on a literary journey like never before with our revolutionary<br>
-                    library application! Introducing a seamless experience<br>
-                    that transcends traditional boundaries, where you<br>
-                    can effortlessly search your favorite books.</p>
+        <section class="flex flex-row mt-11" id="home">
+            <div class="w-1/2 flex flex-col gap-8">
+                <p class="font-extrabold text-[#181E4B] text-[76px] leading-22 tracking-[-0.04em] h-66">
+                    Search & review your
+                    <span class="text-(--color) border-b-4">fav book</span> effortlessly
+                </p>
+                <p class="font-normal text-base leading-[30px] h-30">
+                    Embark on a literary journey like never before with our
+                    revolutionary<br />
+                    library application! Introducing a seamless experience<br />
+                    that transcends traditional boundaries, where you<br />
+                    can effortlessly search your favorite books.
+                </p>
                 <div class="">
                     <button
-                        class="h-15 w-50 bg-(--background-color) rounded-[10px] text-white font-bold text-base leading-[25px] ">Start
-                        now →</button>
+                        class="h-15 w-50 bg-(--background-color) rounded-[10px] text-white font-bold text-base leading-[25px]">
+                        Start now →
+                    </button>
                 </div>
             </div>
             <div class="w-1/2">
@@ -71,87 +79,116 @@
         <!-- bagian feature -->
         <section class="flex flex-col gap-[90px]" id="feature">
             <div class="flex flex-col">
-                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">FEATURES</p>
-                <p class="font-extrabold text-5xl "> <span class="font-bold">•</span> What You Can Do?</p>
+                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">
+                    FEATURES
+                </p>
+                <p class="font-extrabold text-5xl">
+                    <span class="font-bold">•</span> What You Can Do?
+                </p>
             </div>
             <div class="flex flex-row gap-[186px]">
                 <div class="flex flex-col items-center w-[281px] gap-5">
-                    <div  class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center" >
-                        <img src="assets/images/Frame.png"/>
+                    <div
+                        class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center">
+                        <img src="assets/images/Frame.png" />
                     </div>
                     <div class="flex flex-col gap-[26px]">
-                        <p class=" text-center font-bold text-2xl tracking-[2%]">Search book</p>
-                        <p class=" text-center text-base font-normal leading-[30px] tracking-[2%]">Effortlessly find your next<br>
-                            read with our powerful and intuitive<br>
-                            book search.</p>
+                        <p class="text-center font-bold text-2xl tracking-[2%]">
+                            Search book
+                        </p>
+                        <p class="text-center text-base font-normal leading-[30px] tracking-[2%]">
+                            Effortlessly find your next<br />
+                            read with our powerful and intuitive<br />
+                            book search.
+                        </p>
                     </div>
                 </div>
                 <div class="flex flex-col items-center w-[281px] gap-5">
-                    <div class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center">
+                    <div
+                        class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center">
                         <img src="assets/images/Frame (1).png" />
                     </div>
                     <div class="flex flex-col gap-[26px]">
-                        <p class=" text-center font-bold text-2xl tracking-[2%]">Review book</p>
-                        <p class=" text-center text-base font-normal leading-[30px] tracking-[2%]">Discover insightful critiques and<br>
-                            share your thoughts on diverse<br>
-                            literary masterpieces effortlessly.</p>
+                        <p class="text-center font-bold text-2xl tracking-[2%]">
+                            Review book
+                        </p>
+                        <p class="text-center text-base font-normal leading-[30px] tracking-[2%]">
+                            Discover insightful critiques and<br />
+                            share your thoughts on diverse<br />
+                            literary masterpieces effortlessly.
+                        </p>
                     </div>
                 </div>
                 <div class="flex flex-col items-center w-[281px] gap-5">
-                    <div class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center">
+                    <div
+                        class="flex w-[102px] h-[102px] bg-(--background-color) rounded-[26px] justify-center items-center">
                         <img src="assets/images/Frame (2).png" />
                     </div>
                     <div class="flex flex-col gap-[26px]">
-                        <p class=" text-center font-bold text-2xl tracking-[2%]">Wishlist book</p>
-                        <p class=" text-center text-base font-normal leading-[30px] tracking-[2%]">Curate your literary<br>
-                            dreams-wishlist books for future<br>
-                            adventures and discoveries.</p>
+                        <p class="text-center font-bold text-2xl tracking-[2%]">
+                            Wishlist book
+                        </p>
+                        <p class="text-center text-base font-normal leading-[30px] tracking-[2%]">
+                            Curate your literary<br />
+                            dreams-wishlist books for future<br />
+                            adventures and discoveries.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- bagian services -->
-        <section class="flex" id="services">
-            <div class="">
-                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">SERVICES</p>
-                <p class="font-extrabold text-5xl "> <span class="font-bold">•</span> The Services for You</p>
+        <section class="flex flex-col " id="services">
+            <div class="flex flex-col">
+                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">
+                    SERVICES
+                </p>
+                <p class="font-extrabold text-5xl">
+                    <span class="font-bold">•</span> The Services for You
+                </p>
             </div>
-            <div class="">
-                <div class="">
-                    <img src="assets/images/Left.png" />
-                </div>
-                <div class="">
-                    <p class="">Rent your favorite book
-                        fairly easy on Lidia!</p>
+            <div class="flex flex-col">
+                <div class="flex flex-row">
                     <div class="">
-                        <p class="">Viewing, rent, and organize your favorite books has
-                            never been easier. An integrated digital library rent
-                            that’s simple to use, Lidia lets you spend less time
-                            managing your work and more time actually doing it!</p>
-                        <p class="">Effortless rentals, personalized shelves—Lidia
-                            transforms book management, enhancing your
-                            reading experience~</p>
+                        <img src="assets/images/Left.png" />
+                    </div>
+                    <div class="">
+                        <p class="">Rent your favorite book fairly easy on Lidia!</p>
+                        <div class="">
+                            <p class="">
+                                Viewing, rent, and organize your favorite books has never been
+                                easier. An integrated digital library rent that’s simple to
+                                use, Lidia lets you spend less time managing your work and
+                                more time actually doing it!
+                            </p>
+                            <p class="">
+                                Effortless rentals, personalized shelves—Lidia transforms book
+                                management, enhancing your reading experience~
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <p class="">Quick Book Rentals:
-                        Dive into Reading Instantly</p>
+                <div class="flex flex-row">
                     <div class="">
-                        <p class="">Discover instant literary delight. Access a vast library,
-                            borrow your favorite reads, and dive into captivating
-                            stories within minutes. Reading made quick and easy,
-                            just a click away!</p>
-                        <p class="">Unlock a world of stories effortlessly.
-                            Browse genres, choose, rent in minutes.
-                            Seamlessly manage your reading adventures
-                            with our intuitive platform~</p>
+                        <p class="">Quick Book Rentals: Dive into Reading Instantly</p>
+                        <div class="">
+                            <p class="">
+                                Discover instant literary delight. Access a vast library,
+                                borrow your favorite reads, and dive into captivating stories
+                                within minutes. Reading made quick and easy, just a click
+                                away!
+                            </p>
+                            <p class="">
+                                Unlock a world of stories effortlessly. Browse genres, choose,
+                                rent in minutes. Seamlessly manage your reading adventures
+                                with our intuitive platform~
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="">
-                    <img src="assets/images/Right.png" />
+                    <div class="">
+                        <img src="assets/images/Right.png" />
+                    </div>
                 </div>
             </div>
         </section>
@@ -159,15 +196,20 @@
         <!-- bagian riviews -->
         <section class="flex" id="riviews">
             <div class="">
-                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">REVIEWS</p>
-                <p class="font-extrabold text-5xl "> <span class="font-bold">•</span> Reviews of Others</p>
+                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">
+                    REVIEWS
+                </p>
+                <p class="font-extrabold text-5xl">
+                    <span class="font-bold">•</span> Reviews of Others
+                </p>
             </div>
             <div class="">
                 <div class="">
                     <img src="assets/images/Profile.png" />
-                    <p class="">Engaging plot, vivid characters;
-                        a captivating read that
-                        lingers in your thoughts</p>
+                    <p class="">
+                        Engaging plot, vivid characters; a captivating read that lingers
+                        in your thoughts
+                    </p>
                     <div class="">
                         <p class="">Ahmad Saugi</p>
                         <p class="">College Student</p>
@@ -175,9 +217,10 @@
                 </div>
                 <div class="">
                     <img src="assets/images/cover (2).png" />
-                    <p class="">Thought-provoking narrative
-                        and rich prose. A must-read for
-                        any avid book lover!</p>
+                    <p class="">
+                        Thought-provoking narrative and rich prose. A must-read for any
+                        avid book lover!
+                    </p>
                     <div class="">
                         <p class="">Muhammad Alfian</p>
                         <p class="">School Student</p>
@@ -185,9 +228,10 @@
                 </div>
                 <div class="">
                     <img src="assets/images/cover (1).png" />
-                    <p class="">Immersive storytelling!
-                        An enriching literary experience
-                        worth savoring and sharing.</p>
+                    <p class="">
+                        Immersive storytelling! An enriching literary experience worth
+                        savoring and sharing.
+                    </p>
                     <div class="">
                         <p class="">Wahyu Amirulloh</p>
                         <p class="">ERP Developer</p>
@@ -199,8 +243,12 @@
         <!-- location -->
         <section class="flex" id="location">
             <div class="">
-                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">LOCATION</p>
-                <p class="font-extrabold text-5xl "> <span class="font-bold">•</span> Our Library Location</p>
+                <p class="font-extrabold text-lg tracking-[0.095em] text-(--color)">
+                    LOCATION
+                </p>
+                <p class="font-extrabold text-5xl">
+                    <span class="font-bold">•</span> Our Library Location
+                </p>
             </div>
             <div class="">
                 <button><img src="assets/images/Location.png" /></button>
