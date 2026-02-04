@@ -17,3 +17,10 @@ section {
     --color: #4475F2;
     --background-color: #4475F2;
 }
+
+#nav:active {
+    color: #4475F2;
+}
+#nav:hover {
+    color: #4475F2;
+}

@@ -7,7 +7,14 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-blue-600: oklch(54.6% 0.245 262.881);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-blue-900: oklch(37.9% 0.146 265.522);
+    --color-slate-50: oklch(98.4% 0.003 247.858);
+    --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
+    --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-sm: 0.875rem;
@@ -249,9 +256,6 @@
   .mt-\[114px\] {
     margin-top: 114px;
   }
-  .mb-\[240\] {
-    margin-bottom: 240;
-  }
   .mb-\[240px\] {
     margin-bottom: 240px;
   }
@@ -276,17 +280,11 @@
   .h-66 {
     height: calc(var(--spacing) * 66);
   }
-  .h-\[93\] {
-    height: 93;
-  }
   .h-\[93px\] {
     height: 93px;
   }
   .h-\[102px\] {
     height: 102px;
-  }
-  .h-\[119\] {
-    height: 119;
   }
   .h-\[119px\] {
     height: 119px;
@@ -315,17 +313,11 @@
   .w-50 {
     width: calc(var(--spacing) * 50);
   }
-  .w-\[2\] {
-    width: 2;
-  }
   .w-\[102px\] {
     width: 102px;
   }
   .w-\[137px\] {
     width: 137px;
-  }
-  .w-\[248\] {
-    width: 248;
   }
   .w-\[248px\] {
     width: 248px;
@@ -387,12 +379,6 @@
   .gap-\[15px\] {
     gap: 15px;
   }
-  .gap-\[17\.5px\] {
-    gap: 17.5px;
-  }
-  .gap-\[17\] {
-    gap: 17;
-  }
   .gap-\[17px\] {
     gap: 17px;
   }
@@ -408,20 +394,11 @@
   .gap-\[51px\] {
     gap: 51px;
   }
-  .gap-\[52\] {
-    gap: 52;
-  }
   .gap-\[52px\] {
     gap: 52px;
   }
-  .gap-\[59\] {
-    gap: 59;
-  }
   .gap-\[59px\] {
     gap: 59px;
-  }
-  .gap-\[90\] {
-    gap: 90;
   }
   .gap-\[90px\] {
     gap: 90px;
@@ -438,9 +415,6 @@
   .gap-\[140px\] {
     gap: 140px;
   }
-  .gap-\[147\] {
-    gap: 147;
-  }
   .gap-\[147px\] {
     gap: 147px;
   }
@@ -450,8 +424,8 @@
   .gap-\[186px\] {
     gap: 186px;
   }
-  .rounded {
-    border-radius: 0.25rem;
+  .overflow-hidden {
+    overflow: hidden;
   }
   .rounded-\[10px\] {
     border-radius: 10px;
@@ -473,6 +447,9 @@
   }
   .border-gray-100 {
     border-color: var(--color-gray-100);
+  }
+  .border-white {
+    border-color: var(--color-white);
   }
   .bg-\(--background-color\) {
     background-color: var(--background-color);
@@ -597,24 +574,8 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-\(--bac\) {
-    --tw-shadow: var(--bac);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\(--background-color\) {
-    --tw-shadow: var(--background-color);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-\(--color\) {
-    --tw-shadow: var(--color);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .shadow-\(--shadow\) {
     --tw-shadow: var(--shadow);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-lg {
-    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-xl {
@@ -634,6 +595,125 @@
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
+  .hover\:bg-blue-600 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-600);
+      }
+    }
+  }
+  .hover\:bg-blue-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-700);
+      }
+    }
+  }
+  .hover\:bg-blue-900 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-900);
+      }
+    }
+  }
+  .hover\:bg-gray-50 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-gray-50);
+      }
+    }
+  }
+  .hover\:bg-gray-50\/0 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 0%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 0%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-50\/10 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 10%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 10%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-50\/20 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 20%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 20%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-50\/30 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 30%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 30%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-50\/40 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 40%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 40%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-50\/80 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.5% 0.002 247.839) 80%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-gray-50) 80%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:bg-gray-100 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-gray-100);
+      }
+    }
+  }
+  .hover\:bg-gray-200 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-gray-200);
+      }
+    }
+  }
+  .hover\:bg-gray-300 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-gray-300);
+      }
+    }
+  }
+  .hover\:bg-slate-50\/80 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: color-mix(in srgb, oklch(98.4% 0.003 247.858) 80%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--color-slate-50) 80%, transparent);
+        }
+      }
+    }
+  }
 }
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -648,6 +728,12 @@ section {
   --shadow: 7px 12px 12px rgb(0, 0, 0, 0.1);
   --color: #4475F2;
   --background-color: #4475F2;
+}
+#nav:active {
+  color: #4475F2;
+}
+#nav:hover {
+  color: #4475F2;
 }
 @property --tw-rotate-x {
   syntax: "*";
