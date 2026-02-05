@@ -13,7 +13,7 @@ section {
 }
 
 :root {
-    --shadow: 7px 12px 12px rgb(0, 0, 0, 0.1);
+    --shadow: 3px 12px 14px rgb(0, 0, 0, 0.07);
     --color: #4475F2;
     --background-color: #4475F2;
 }
