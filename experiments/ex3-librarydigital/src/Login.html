@@ -17,29 +17,28 @@
         <img src="assets/images/Logo.svg" alt="" class="w-[100px] h-[100px] mx-auto">
         <main class="flex flex-col px-[35px] pb-5 rounded-[5px] border-t-1 border-[#4475F2] bg-white shadow-(--shadow)">
             <span class="flex flex-row mt-[38px]">
-                <a href="" class="">Home</a>
-                /
-                <a href="" class="">Login</a>
+                <a href="index.html" class="text-base font-normal leading-[32px] active:text-[#4737FF]">Home /</a>
+                <a href="#" class="text-base font-normal leading-[32px] active:text-[#4737FF]">Login</a>
             </span>
             <div class="flex flex-col gap-[15px] mt-6">
-                <p class="">Login</p>
-                <p class="">Input your username and password.</p>
+                <p class="font-bold text-xl">Login</p>
+                <p class="text-base font-normal">Input your username and password.</p>
             </div>
             <div class="flex flex-col gap-[25px] mt-10">
                 <div class="flex flex-col gap-[11px]">
-                    <label for="" class="">Username</label>
-                    <input type="text" class="border-1 border-[#DEDEDE] h-10 rounded-sm " placeholder="" id="">
+                    <label for="user" class="font-bold text-base">Username</label>
+                    <input type="text" class="border-1 border-[#DEDEDE] h-10 rounded-sm " placeholder="    username" id="user">
                 </div>
                 <div class=" flex flex-col gap-[11px]">
-                    <label for="" class="">Password</label>
-                    <input type="password" class="border-1 border-[#DEDEDE] h-10 rounded-sm " placeholder="" id="">
+                    <label for="pass" class="font-bold text-base">Password</label>
+                    <input type="password" class="border-1 border-[#DEDEDE] h-10 rounded-sm focus:border-2 focus:border-[4737FF#]" placeholder="    password" id="pass">
                 </div>
             </div>
-            <button class="mt-[28px] h-[43px]" id="">Login</button>
+            <button class="mt-[28px] h-[43px] text-sm font-bold leading-[25px] text-white bg-(--background-color) rounded-sm hover:bg-blue-700" id="">Login</button>
         </main>
-        <div class="mx-auto">
-            <p class="">Don’t have an account? <a href="" class="">Create one!</a></p>
-            <p class="">© 2024 Lidia. All rights reserved.</p>
+        <div class="mx-auto flex flex-col gap-10 text-center ">
+            <p class="text-[#5E6282] text-sm font-normal">Don’t have an account? <a href="Sign-Up.html" class="text-[#4737FF]">Create one!</a></p>
+            <p class="text-[#5E6282] text-sm font-normal">© 2024 Lidia. All rights reserved.</p>
         </div>
     </div>
 </body>
