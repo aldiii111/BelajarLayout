@@ -258,11 +258,20 @@
   .mt-\[38px\] {
     margin-top: 38px;
   }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mt-\[70px\] {
     margin-top: 70px;
   }
   .mt-\[114px\] {
     margin-top: 114px;
+  }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .mb-\[240px\] {
     margin-bottom: 240px;
@@ -351,11 +360,20 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[40px\] {
+    max-width: 40px;
+  }
   .max-w-\[400px\] {
     max-width: 400px;
   }
+  .max-w-\[730px\] {
+    max-width: 730px;
+  }
   .max-w-\[1264px\] {
     max-width: 1264px;
+  }
+  .max-w-\[px\] {
+    max-width: px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -456,9 +474,6 @@
   .overflow-hidden {
     overflow: hidden;
   }
-  .rounded {
-    border-radius: 0.25rem;
-  }
   .rounded-\[5px\] {
     border-radius: 5px;
   }
@@ -498,9 +513,6 @@
   }
   .bg-\(--background-color\) {
     background-color: var(--background-color);
-  }
-  .bg-\(--background0\) {
-    background-color: var(--background0);
   }
   .bg-\[\#4475F2\] {
     background-color: #4475F2;
@@ -625,12 +637,6 @@
   .text-\[\#4737FF\] {
     color: #4737FF;
   }
-  .text-\[\#\] {
-    color: #;
-  }
-  .text-\[4737FF\] {
-    color: 4737FF;
-  }
   .text-white {
     color: var(--color-white);
   }
@@ -675,42 +681,15 @@
       }
     }
   }
-  .focus\:border {
-    &:focus {
-      border-style: var(--tw-border-style);
-      border-width: 1px;
-    }
-  }
-  .focus\:border-1 {
-    &:focus {
-      border-style: var(--tw-border-style);
-      border-width: 1px;
-    }
-  }
   .focus\:border-2 {
     &:focus {
       border-style: var(--tw-border-style);
       border-width: 2px;
     }
   }
-  .focus\:border-\[\#4737FF\] {
-    &:focus {
-      border-color: #4737FF;
-    }
-  }
   .focus\:border-\[4737FF\#\] {
     &:focus {
       border-color: 4737FF#;
-    }
-  }
-  .focus\:text-\[\#4737FF\] {
-    &:focus {
-      color: #4737FF;
-    }
-  }
-  .active\:bg-\[\#4737FF\] {
-    &:active {
-      background-color: #4737FF;
     }
   }
   .active\:text-\[\#4737FF\] {
